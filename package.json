@@ -23,14 +23,18 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "ajax": "0.0.4",
     "bcrypt": "^3.0.7",
     "discord-webhook-node": "^1.0.4",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "get-json": "^1.0.1",
     "hookcord": "^2.0.2",
     "promise-poller": "^1.9.1",
     "puppeteer": "^2.0.0",
     "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "request-promise-native": "^1.0.8",
     "webhook-discord": "^3.5.1"
   }
 }
